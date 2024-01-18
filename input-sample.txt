@@ -1,0 +1,26 @@
+H01
+Seraton
+10
+189 Ung Van Khiem, Ward 25, Binh Thanh District, Ho Chi Minh City
+0911796099
+
+H02
+VinStar
+5
+200 Ung Van Khiem, Ward 25, Binh Thanh District, Ho Chi Minh City
+0918940111
+5 star
+
+H03
+OutString
+7
+300 D1, Ward 24, Binh Thanh District, Ho Chi Minh City
+0988940222
+6 star
+
+H04
+Betigar
+8
+189 Duong Quang Ham, Ward 5, Go Vap District, Ho Chi Minh CIty
+0977940100 
+3 star
