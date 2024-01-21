@@ -63,8 +63,8 @@ public class MyUtil {
                 } else {
                     int x = Integer.parseInt(strInp);
                     if ((low != null && x < low) || (high != null && x > high)) {
-                        throw new Exception("Input must be an integer in range [" 
-                                + (low == null ? "" : low) + (high == null ? "" : (" - " + high)) + "]!");
+                        throw new Exception("Input must be an integer in range ["
+                                + (low == null ? "-INFINITY" : low) + (high == null ? " -> INFINITY" : (" - " + high)) + "]!");
                     } else {
                         return x;
                     }
@@ -82,7 +82,8 @@ public class MyUtil {
             try {
                 int x = Integer.parseInt(inputStringNotEmpty(mess));
                 if ((low != null && x < low) || (high != null && x > high)) {
-                    throw new Exception("Input must be an integer in range [" + low + "-" + high + "]!");
+                    throw new Exception("Input must be an integer in range ["
+                            + (low == null ? "-INFINITY" : low) + (high == null ? " -> INFINITY" : (" - " + high)) + "]!");
                 } else {
                     return x;
                 }

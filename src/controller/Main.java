@@ -28,8 +28,7 @@ public class Main {
         menu.add("7.Save to file");
         menu.add("8.Exit");
 
-        String filePath = ""
-                + "src/data/Hotel.dat";
+        String filePath = "src/data/Hotel.dat";
         HotelList hotelList = new HotelList();
         HotelController.loadFromFile(filePath, hotelList);
         int choice;
